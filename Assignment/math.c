@@ -1,9 +1,14 @@
-int math(int num1, int num2, char Operator);
-
+#include <stdio.h>
 #include "math.h"
 
-int math(int num1, int num2, char Operator)
-{
+int math(int num1, int num2, char Operator);
+
+int main{
+	
+}
+
+int math(int num1, int num2, char Operator){
+	
 	int result;
 	
 	if (Operator = "+")
@@ -20,5 +25,4 @@ int math(int num1, int num2, char Operator)
 		result = 0;
 	
 	return result;
-	
 }
