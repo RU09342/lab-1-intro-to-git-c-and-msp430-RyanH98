@@ -3,7 +3,7 @@
 ## The math function
 
 math.c implements a single function, math. The math function takes two integers as input and applies a char operator to the two integers. The inputs are given as
-math(int1, int2, char). The char input can be one of the following:
+math(int, int, char). The char input can be one of the following:
 
 1. '+' for addition.
 2. '-' for subtraction.
